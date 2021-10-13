@@ -11,9 +11,9 @@ const projectArr = [
     { src: game2048, title: "Game 2048", description: "It is built using ReactJS.", hrefs: "https://games2048.netlify.app/" },
     { src: rdxeducation, title: "RDX Education", description: "This education website is made using ReactJS.", hrefs: "https://rdxeducation.netlify.app/" },
     { src: login, title: "Login Authentication", description: "This web app is developed using ReactJS & ExpressJS.", hrefs: "https://loginauthentications.netlify.app/" },
-    { src: snake, title: "Snake Game", description: "This game is developed using HTML, CSS, Javascript.", hrefs: "https://memerboy.000webhostapp.com/snake" },
-    { src: completewords, title: "Complete the Word", description: "It is built using HTML,CSS,Javascript.", hrefs: "https://memerboy.000webhostapp.com/completetheword" },
-    { src: tictactoe, title: "Tic Tac Toe", description: "It is developed using HTML, CSS, Javascript.", hrefs: "https://rohandutta2710.github.io/rdx.github.io/tictactoe" },
+    { src: snake, title: "Snake Game", description: "This game is developed using HTML, CSS & Javascript.", hrefs: "https://memerboy.000webhostapp.com/snake" },
+    { src: completewords, title: "Complete the Word", description: "It is built using HTML, CSS & Javascript.", hrefs: "https://memerboy.000webhostapp.com/completetheword" },
+    { src: tictactoe, title: "Tic Tac Toe", description: "It is developed using HTML, CSS & Javascript.", hrefs: "https://rohandutta2710.github.io/rdx.github.io/tictactoe" },
 
 ]
 function Projects() {

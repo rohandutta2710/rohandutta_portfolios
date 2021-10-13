@@ -35,7 +35,7 @@ function About() {
                     <div>
                         <h2>About me</h2>
                         <p>
-                            I completed my gradution from Hansraj College, Delhi Univerity and looking to establish a career in the field of Information Technology, I wish to work in a growth-oriented company and contribute to the development of the organization while upgrading my skill set and knowledge.
+                            I completed my graduation from Hansraj College, Delhi University and looking to establish a career in the field of Information Technology, I wish to work in a growth-oriented company and contribute to the development of the organization while upgrading my skill set and knowledge.
                             I like to play cricket, swimming, meditation and reading books.
                             A book, Avenue of Spirituality, is written by myself which is based on spiritual living.
                         </p>
