@@ -6,7 +6,8 @@ function Contact() {
         usingContext.setContactForm({ ...usingContext.contactForm, [e.target.name]: e.target.value });
     }
     const handleSubmit = (e) => {
-        if (usingContext.contactForm.email.endsWith("@gmail.com") === false || usingContext.contactForm.email.indexOf("@") !== usingContext.contactForm.email.lastIndexOf("@")) {
+	let check = usingContext.contactForm.email.toLowerCase();
+        if (check.endsWith("@gmail.com") === false || usingContext.contactForm.email.indexOf("@") !== usingContext.contactForm.email.lastIndexOf("@")) {
             alert("Enter a valid Email.");
             e.preventDefault();
         }
