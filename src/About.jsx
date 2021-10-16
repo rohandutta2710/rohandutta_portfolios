@@ -7,7 +7,8 @@ import img3 from "./Images/About/img3.jpg";
 import img4 from "./Images/About/img4.jpg";
 import img5 from "./Images/About/img5.jpg";
 import img6 from "./Images/About/img6.jpg";
-const aboutArr = [img1, img3, img4, img5, img6, img2];
+import img7 from "./Images/About/img7.jpg";
+const aboutArr = [img1, img3, img7, img4, img5, img6, img2];
 function About() {
     useEffect(() => {
         var swiper = new Swiper(".mySwiper", {
