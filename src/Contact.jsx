@@ -18,7 +18,7 @@ function Contact() {
                 Get in touch
             </h1>
             <div className="contact-form">
-                <form method="post" action="https://portfoliobackend-3emb.onrender.com/contact" onSubmit={handleSubmit}>
+                <form method="post" action={usingContext.websiteLink+"/contact"} onSubmit={handleSubmit}>
                     <div className="form-floating mb-3">
                         <input type="text" className="form-control" id="floatingInputName" placeholder="Name" name="name" onChange={handleContact} required />
                         <label htmlFor="floatingInputName">Name</label>
